@@ -1,0 +1,26 @@
+{
+      "Cell_layout": {
+        "N": 190,
+        "K": 19,
+        "M": 10,
+        "ISD": 500,
+        "H_BS": 25,
+        "H_UE_out": 1,
+        "Indoor_UT": 0.8,
+        "T": 2,
+        "total_samples": 3000
+    },
+      "mobility_params": {
+        "v_c": 300000000.0,
+        "f_c": 2000000000.0,
+        "p_v_max":8,
+        "car_v_max":30
+    },
+      "train_episodes": {
+        "T_train": 1000,
+        "T_sleep": 50000,
+        "cell_passing_training": true,
+        "cell_passing_sleeping": true,
+        "T_register": 50
+    }
+}
